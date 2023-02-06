@@ -1,0 +1,40 @@
+---
+# Members of the group.
+group:
+  - name: Andrew Liu
+    netid: al849
+  - name: Jason Steiner
+    netid: jns226
+  - name: Lincoln Stranger
+    netid: las535
+# PM.
+pm:
+  name: Shuyu Cao
+  netid: ssc256
+# Gallery entry will be public.
+publish: true
+# Pithy title
+title: "Single-player Blackjack Game"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/al849/blackjack"
+# No demo screencast
+demo-video-url: ""
+# Description of the project.
+desc: >
+  Our project is an interactive single-player Blackjack system. It simulates a 
+  Blackjack game with rules such as 4 to 8 playing decks, no "hole card" for the 
+  dealer, dealer hits until achieving a value of 17 or more, and a 2-1 Blackjack 
+  payout. 
+  
+  The game supports traditional player decisions such as hitting, standing, 
+  doubling down, splitting, and surrendering as well as a betting mechanism to 
+  create a thrilling risk/reward experience. The user interface of the Blackjack 
+  game is fully text-based, and players can interact with the the interface by 
+  typing specific commands in the terminal. The game also offers an evaluation 
+  tool that suggests the recommended action to take and the recommended betting 
+  size, which is based on popular Blackjack strategy charts and a HighLow card 
+  counting system.
+
+  We improve the odds against the dealer compared to traditional casino Blackjack 
+  odds to truly reward the player's skill. Do you have what it takes to beat the 
+  dealer?

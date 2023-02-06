@@ -1,0 +1,42 @@
+INSTALLATION INSTRUCTIONS FOR BLACKJACK SYSTEM
+Preface.
+- Notes on command formatting: Commands to execute are enclosed in square brackets 
+  with the format [command], but do not include the square brackets themselves. 
+  Copy only the text inside the square brackets for each command.
+- These instructions assume that blackjack.zip has been downloaded and unzipped
+  by the user in a directory navigable in Ubuntu.
+- These instructions assume that OCaml and Ubuntu have been installed correctly.
+
+  Note: If OCaml and Ubuntu are not installed, it is highly recommended to follow
+  the installation instructions on:
+  
+  https://cs3110.github.io/textbook/chapters/preface/install.html
+
+  to ensure that all necessary packages are correctly installed for the Blackjack
+  system.
+
+Installation.
+1. Open Ubuntu and navigate into the blackjack directory. All subsequent commands 
+   should be run in this directory.
+
+2. Install the latest version of ANSITerminal: 
+   On Unix and OSX, run the command [opam install ANSITerminal].
+   On Windows, please follow the installation instructions on 
+   https://github.com/Chris00/ANSITerminal for cloning the repository and compiling
+   and installing the library.
+
+   Note: The version of ANSITerminal used during the development of the Blackjack
+   system was version 0.8.5, but any future version should also work. To install
+   ANSITerminal version 0.8.5, run the command [opam install ANSITerminal.0.8.5].
+
+   Additionally, it may be necessary to update any OCaml packages prior to 
+   installing ANSITerminal by running [opam update] (this command may take 
+   several minutes to complete), then [opam upgrade] to upgrade already-installed 
+   packages.
+
+3. In the terminal, run the command [make build]. "dune build" should appear on
+   the terminal afterwards.
+
+4. To play the Blackjack system in the terminal, run the command [make play].
+   You should see a yellow/gold welcome message for the Blackjack system.
+   Congratulations, you have successfully started a Blackjack session!

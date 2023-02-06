@@ -1,0 +1,4 @@
+(library
+ (name blackjack)
+ (public_name Blackjack)
+ (libraries ANSITerminal))
